@@ -8,7 +8,7 @@
   <CReviews />
   <CContacts />
   <CFooter @toPage="toPage" />
-  <Modal />
+  <!--  <Modal />-->
 </template>
 
 <script setup>
@@ -21,7 +21,7 @@ import CHowItWork from '../components/CHowItWork.vue'
 import CAboutUs from '../components/CAboutUs.vue'
 import CMain from '../components/CMain.vue'
 import CHeader from '../components/CHeader.vue'
-import Modal from '@/components/Modal.vue'
+import Modal from '../components/Modal.vue'
 
 function toPage(page) {
   if (page === 'top') {

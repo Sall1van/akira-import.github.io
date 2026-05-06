@@ -79,10 +79,8 @@ button {
   @media (max-width: 919px) {
     flex-direction: column-reverse;
   }
-  &:hover {
-    a {
-      color: #f34051;
-    }
+  a:hover {
+    color: #f34051;
     svg {
       stroke: #f34051;
       fill: #f34051;
